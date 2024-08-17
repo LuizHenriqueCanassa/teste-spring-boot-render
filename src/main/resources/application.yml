@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: teste-spring-boot-render
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db-teste-render
+    username: postgres
+    password: teste-render
+server:
+  port: 8080
